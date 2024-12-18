@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import logging
 
+# ye jo run hote time likh rha h uska format h
 logging.basicConfig(
     level=logging.INFO, format="[%(asctime)s]:%(message)s:"
 )  # we want to log in the information level now  then it will get the current time means asctime of running the code and then the login message
@@ -23,7 +24,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "test.py",
+    "templates/index.html",
 ]
 
 for filepath in list_of_files:
